@@ -9,7 +9,7 @@ Bikeshare Data Exploration
 ### Description
 This project looks through 6 months of bikeshare data from three different cities and collects some initial descriptive statistics about this time period.
 
-You can use this file to step through certain chunks of transformed data. In addition you can just use it to only view the statistics regarding different aspects of the data set. 
+You can use this file to step through certain chunks of transformed data. In addition you can just use it to only view the statistics regarding different aspects of the data set.
 
 ### Files used
 --bikeshare.py
@@ -26,3 +26,4 @@ This project was created using the following references:
 --python.org
 --https://note.nkmk.me/en/python-pandas-len-shape-size/: Notes and example code for working with different features of pandas DataFrames
 --https://www.python-course.eu/python3_formatted_output.php: Reminders on formatting strings/print statements
+--https://towardsdatascience.com/renaming-columns-in-a-pandas-dataframe-1d909360ddc6: blog post describing different manners of renaming column headers in data frames for more human-readable outputs in the program. 
