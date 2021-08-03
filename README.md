@@ -9,6 +9,8 @@ Bikeshare Data Exploration
 ### Description
 This project looks through 6 months of bikeshare data from three different cities and collects some initial descriptive statistics about this time period.
 
+You can use this file to step through certain chunks of transformed data. In addition you can just use it to only view the statistics regarding different aspects of the data set. 
+
 ### Files used
 --bikeshare.py
 chicago.csv
