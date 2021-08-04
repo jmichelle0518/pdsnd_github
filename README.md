@@ -12,7 +12,10 @@ This is a command line program that looks through 6 months of bikeshare data fro
 You can use this file to step through certain chunks of transformed data. In addition you can just use it to only view the statistics regarding different aspects of the data set.
 
 ### Files used
+Main program:
 --bikeshare.py
+
+Data Files:
 --chicago.csv
 --new_york_city.csv
 --washington.csv
