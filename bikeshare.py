@@ -119,7 +119,7 @@ def load_data(city, month, day):
     df = pd.read_csv(CITY_DATA[city], header=0, names=columns)
     #print(df.head())
     df['month'] = pd.DatetimeIndex(df['Start Time']).month
-    df['day_of_week'] = pd.DatetimeIndex(df['Start Time']).weekday_name
+    df['day_of_week'] = pd.DatetimeIndex(df['Start Time']).weekday
     df['Trip Duration (s)'] = pd.to_numeric(df['Trip Duration (s)'], downcast='float')
     #print(df.head())
 
